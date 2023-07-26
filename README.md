@@ -10,6 +10,9 @@ git filter-branch --msg-filter "cat - && echo && echo 'Signed-off-by: Your Name 
 ```bash
 #example
 git filter-branch --msg-filter "cat - && echo && echo 'Signed-off-by: Shubham Kumar shubham.kumar@ramanujan.du.ac.in'" HEAD~2..HEAD
+
+# PR box
+Signed-off-by: Shubham Kumar[shubham.kumar@ramanujan.du.ac.in](mailto:shubham.kumar@ramanujan.du.ac.in)
 ```
 
 #### Then force push them to the remote repo with the `-f` option:
